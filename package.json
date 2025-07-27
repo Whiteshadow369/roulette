@@ -1,0 +1,14 @@
+{
+  "name": "crypto-roulette-enhanced",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./style.css -o ./dist/output.css --minify",
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.16",
+    "serve": "^14.2.0"
+  }
+}
